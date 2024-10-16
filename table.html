@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #00b39e;
+
+        }
+
+
+         thead, th{
+            background-color: #00b39e;
+            color: white;
+            padding: 15px;
+            text-align: left;
+
+        }
+        tbody tr td{
+            padding: 12px;
+            text-align: left;
+        }
+        tr:hover{
+            color: #00b39e;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Domenic</td>
+                    <td>88,110</td>
+                    <td>dcode</td>
+                </tr>
+                <tr>
+                    <td >2</td>
+                    <td >Sally</td>
+                    <td >72,400</td>
+                    <td >Students</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nick</td>
+                    <td>52,300</td>
+                    <td>dcode</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+</body>
+</html>
